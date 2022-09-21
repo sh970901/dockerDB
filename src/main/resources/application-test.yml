@@ -6,4 +6,4 @@ spring:
     password: ${testDbPw:lldj123414}
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
