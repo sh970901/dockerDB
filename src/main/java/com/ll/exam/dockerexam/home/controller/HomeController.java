@@ -11,6 +11,6 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String showMain(){
-        return "<h1>Hello, SB!! 반영 됨</h1>";
+        return "<h1>Hello, SB!! 반영 됨!!</h1>";
     }
 }
